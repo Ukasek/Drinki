@@ -5,42 +5,20 @@ public class DrinkName {
         bloodyMarry.name = "Bloody Marry";
         bloodyMarry.price = 19;
         bloodyMarry.isAlcoholic = true;
-        bloodyMarry.capacity = 3;
-        Ingredients marryIngredients = new Ingredients();
-        marryIngredients.name1 = "Sok pomidorowy";
-        marryIngredients.name2 = "Wódka";
-        marryIngredients.name3 = "Oliwka";
+        bloodyMarry.ingredient1 = "Sok pomidorowy";
+        bloodyMarry.ingredient2 = "Wódka";
+        bloodyMarry.ingredient3 = "Woda";
+        Ingredients bloodyMarryQuantity = new Ingredients();
+        bloodyMarryQuantity.quantity1 = 125;
+        bloodyMarryQuantity.quantity2 = 75;
+        bloodyMarryQuantity.quantity3 = 20;
 
-        String bloodymarryInfo = "Nazwa: " + bloodyMarry.name + " " + "Cena: " + bloodyMarry.price + "zł " + ", " + " Alkohol: " + bloodyMarry.isAlcoholic + ", "
-                + " " + "Składniki: " + marryIngredients.name1 + ", " + marryIngredients.name2 + ", " + marryIngredients.name3 + ", "
-                + " " + "Pojemość drinka: " + bloodyMarry.capacity;
-
-        Drink soberAlcoholic = new Drink();
-        soberAlcoholic.name = "Sober Alcoholic";
-        soberAlcoholic.price = 12;
-        soberAlcoholic.isAlcoholic = false;
-        Ingredients soberAlcoholicIngredients = new Ingredients();
-        soberAlcoholicIngredients.name1 = "Woda";
-        soberAlcoholicIngredients.name3 = "Cytryna";
-        soberAlcoholicIngredients.name3 = "Tonik";
-
-        Drink mojito = new Drink();
-        mojito.name = "Mojito";
-        mojito.price = 19;
-        mojito.isAlcoholic = true;
-        Ingredients mojitoIngredients = new Ingredients();
-        mojitoIngredients.name1 = "Rum";
-        mojitoIngredients.name2 = "Limonka";
-        mojitoIngredients.name3 = "Mięta";
+        String bloodymarryInfo = "Nazwa: " + bloodyMarry.name + ", " + "Cena: " + bloodyMarry.price + "zł " + ", " + " Alkohol: " + bloodyMarry.isAlcoholic +
+                ", " + "Składniki: " + bloodyMarry.ingredient1 + ", " + bloodyMarry.ingredient2 + ", " + bloodyMarry.ingredient3;
 
         System.out.println(bloodymarryInfo);
-
-
-
-
-
-
-
+        String quantityBloodyMarry = "Pojemność to: " + (bloodyMarryQuantity.quantity1 + bloodyMarryQuantity.quantity2 + bloodyMarryQuantity.quantity3) + " ml ";
+        System.out.println(quantityBloodyMarry);
 
 
     }

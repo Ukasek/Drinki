@@ -1,10 +1,8 @@
 public class Ingredients {
 
-    String name1;
-    String name2;
-    String name3;
-
-
+    double quantity1;
+    double quantity2;
+    double quantity3;
 
 
 }
