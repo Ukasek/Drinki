@@ -5,13 +5,15 @@ public class DrinkName {
         bloodyMarry.name = "Bloody Marry";
         bloodyMarry.price = 19;
         bloodyMarry.isAlcoholic = true;
+        bloodyMarry.capacity = 3;
         Ingredients marryIngredients = new Ingredients();
         marryIngredients.name1 = "Sok pomidorowy";
         marryIngredients.name2 = "Wódka";
         marryIngredients.name3 = "Oliwka";
 
-        String bloodymarryInfo = "Nazwa: " + bloodyMarry.name + " " + "Cena: " + bloodyMarry.price + "zł " + " Alkohol: " + bloodyMarry.isAlcoholic
-                + " " + "Składniki: " + marryIngredients.name1 + ", " + marryIngredients.name2 + ", "  + marryIngredients.name3;
+        String bloodymarryInfo = "Nazwa: " + bloodyMarry.name + " " + "Cena: " + bloodyMarry.price + "zł " + ", " + " Alkohol: " + bloodyMarry.isAlcoholic + ", "
+                + " " + "Składniki: " + marryIngredients.name1 + ", " + marryIngredients.name2 + ", " + marryIngredients.name3 + ", "
+                + " " + "Pojemość drinka: " + bloodyMarry.capacity;
 
         Drink soberAlcoholic = new Drink();
         soberAlcoholic.name = "Sober Alcoholic";
