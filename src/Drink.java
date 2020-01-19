@@ -1,11 +1,13 @@
 public class Drink {
-
     String name;
     double price;
     boolean isAlcoholic;
-    String ingredient1;
-    String ingredient2;
-    String ingredient3;
+    Ingredient ingredient1;
+    Ingredient ingredient2;
+    Ingredient ingredient3;
+
+
+
 
 
 
